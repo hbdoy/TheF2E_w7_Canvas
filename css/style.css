@@ -1,0 +1,53 @@
+html,body{
+    user-select: none;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    border: 2px solid white;
+    /* line-height: 200px; */
+}
+
+#myBtn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.circle-big{
+    border-radius: 50%;
+    width: 700px;
+    height: 700px;
+    border: 1px solid white;
+}
+
+.logo-text{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.circle-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #F3AD5E;
+}
+
+.triangle-logo{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 75px 150px 75px;
+    border-color: transparent transparent #4271BB transparent;
+}
+
+.custom-logo{
+    -webkit-clip-path: polygon(26% 19%, 100% 19%, 100% 75%, 27% 75%, 0% 50%);
+    clip-path: polygon(26% 19%, 100% 19%, 100% 75%, 27% 75%, 0% 50%);
+    width: 150px;
+    height: 150px;
+    background-color: #E62961;
+}
